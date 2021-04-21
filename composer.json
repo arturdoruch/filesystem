@@ -1,0 +1,21 @@
+{
+    "name": "arturdoruch/filesystem",
+    "type": "library",
+    "description": "A collection of filesystem utilities.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Doruch",
+            "email": "arturdoruch@interia.pl",
+            "homepage": "https://github.com/arturdoruch"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "ArturDoruch\\Filesystem\\": ""
+        }
+    }
+}
